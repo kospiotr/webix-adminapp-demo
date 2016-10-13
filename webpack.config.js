@@ -13,7 +13,7 @@ module.exports = function (env) {
     entry: {
       vendor: [
         isProd ? 'webix/webix.js' : 'webix/webix_debug.js',
-        'webix/skins/flat.css',
+        './src/themes/skins/material.css',
         './src/assets/theme.siberia.less'
       ],
       app: [
