@@ -1,8 +1,8 @@
 define([
-  "views/typography/buttons",
-  "views/typography/raised",
-  "views/typography/text",
-  "views/typography/background"
+  "../views/typography/buttons",
+  "../views/typography/raised",
+  "../views/typography/text",
+  "../views/typography/background"
 ],function(buttons, raised, text, background){
 
 	var layout = {

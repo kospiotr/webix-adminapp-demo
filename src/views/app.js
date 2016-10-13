@@ -1,11 +1,11 @@
 define([
-	"views/menus/search",
-	"views/menus/mail",
-	"views/menus/message",
-	"views/menus/profile",
-	"views/menus/sidebar",
-	"views/webix/icon",
-	"views/webix/menutree"
+	"../views/menus/search",
+	"../views/menus/mail",
+	"../views/menus/message",
+	"../views/menus/profile",
+	"../views/menus/sidebar",
+	"../views/webix/icon",
+	"../views/webix/menutree"
 ],function(search, mail, message, profile, menu){
 
 	//Top toolbar

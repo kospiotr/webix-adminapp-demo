@@ -1,4 +1,4 @@
-define(["views/webix/googlemap"], function(){
+define(["../../views/webix/googlemap"], function(){
 
 	var map = {
 		rows:[

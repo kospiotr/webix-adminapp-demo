@@ -1,7 +1,7 @@
 define([
-	"views/forms/order",
-	"views/menus/export",
-	"models/orders"
+	"../views/forms/order",
+	"../views/menus/export",
+	"../models/orders"
 ], function(orderform, exports, orders){
 
 	var controls = [

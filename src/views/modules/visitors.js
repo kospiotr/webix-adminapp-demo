@@ -1,4 +1,4 @@
-define(["models/visitors"],function(visitors){
+define(["../../models/visitors"],function(visitors){
 
 	return {
 		$ui:{

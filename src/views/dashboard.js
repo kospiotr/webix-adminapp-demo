@@ -1,11 +1,11 @@
 define([
-	"views/modules/dashline",
-	"views/modules/visitors",
-	"views/modules/orders",
-	"views/modules/messages",
-	"views/modules/revenue",
-	"views/modules/tasks",
-	"views/modules/map"
+	"../views/modules/dashline",
+	"../views/modules/visitors",
+	"../views/modules/orders",
+	"../views/modules/messages",
+	"../views/modules/revenue",
+	"../views/modules/tasks",
+	"../views/modules/map"
 ],function(dashline, visitors, orders, messages, revenue, tasks, map){
 	
 	var layout = {

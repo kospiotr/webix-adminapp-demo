@@ -1,4 +1,8 @@
-define(["models/files",	"views/modules/edittree","views/webix/fileview"], function(files,tree){
+define([
+	"../models/files",
+	"../views/modules/edittree",
+	"../views/webix/fileview"
+], function(files,tree){
 	var layout = {
 		type:"clean", margin:-8,
 		rows:[

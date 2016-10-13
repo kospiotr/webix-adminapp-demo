@@ -1,4 +1,4 @@
-define(["models/data_arrays"],function(data_arrays){
+define(["../../models/data_arrays"],function(data_arrays){
 	var titleTree = {
 		view: "toolbar",
 		css: "highlighted_header header3",

@@ -1,9 +1,8 @@
 define([
-	"views/modules/product_search",
-	"views/modules/editor",
-
-	"views/modules/product_upload",
-	"views/modules/product_meta"
+	"../views/modules/product_search",
+	"../views/modules/editor",
+	"../views/modules/product_upload",
+	"../views/modules/product_meta"
 ], function(search,editor,upload,meta){
 
 var mainView = {};

@@ -1,4 +1,4 @@
-define(["models/topsales"],function(topsales){
+define(["../../models/topsales"],function(topsales){
 
 	var chart = {
 		view:"chart",

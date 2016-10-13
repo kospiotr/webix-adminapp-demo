@@ -3,11 +3,11 @@
 */
 
 define([
-	"libs/core",
-	"helpers/menu",
-	"helpers/locale",
-	"helpers/theme",
-	"libs/rollbar"
+	"./libs/core",
+	"./helpers/menu",
+	"./helpers/locale",
+	"./helpers/theme",
+	"./libs/rollbar"
 ], function(core, menu, locale, theme, tracker){
 
 

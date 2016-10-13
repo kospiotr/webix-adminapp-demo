@@ -1,4 +1,8 @@
-define(["models/files","views/webix/editable","views/webix/filetree"], function(files){
+define([
+	"../../models/files",
+	"../../views/webix/editable",
+	"../../views/webix/filetree"
+], function(files){
 
 	var tree = {
 		id: "fileTree",

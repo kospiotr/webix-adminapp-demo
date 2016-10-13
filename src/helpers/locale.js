@@ -1,6 +1,6 @@
 define([
-	"libs/polyglot",
-	"models/user"
+	"../libs/polyglot",
+	"../models/user"
 ], function(polyglot, users){
 
 	var defaultlang = "en";
@@ -23,8 +23,8 @@ define([
 
 	function create_locale(lang){
 		current_lang = lang;
-		define("locale", [
-			"locales/"+lang
+		define("./locale", [
+			"../../node_modules/webix/i18n/"+lang
 		], function(data){
 			var poly = new Polyglot({ phrases:data });
 				poly.locale(lang);

@@ -1,7 +1,7 @@
 define([
-	"views/modules/editor",
-	"views/modules/topsales",
-	"models/products"
+	"../views/modules/editor",
+	"../views/modules/topsales",
+	"../models/products"
 ], function(editor, topsales, products){
 
 

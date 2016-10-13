@@ -1,5 +1,5 @@
 define([
-	"libs/routie"
+	"../libs/routie"
 ],function(){
 
 	function show(path, config){
@@ -212,7 +212,7 @@ define([
 
 			if (run_plugins(require_plugins, url, line, stack, layout) === false) return;
 
-			require(["views/" + url], function(ui){
+			require(["../views/" + url], function(ui){
 				stack.shift();
 
 				var next = layout.sub(ui, line, stack);
@@ -425,6 +425,6 @@ define([
 		app.show(app.config.start);
 	}
 
-	requirejs.onError = invalid_url;
+	//requirejs.onError = invalid_url;
 	return app;
 });

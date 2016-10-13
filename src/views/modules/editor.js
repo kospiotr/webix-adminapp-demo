@@ -1,4 +1,4 @@
-define(["views/webix/ckeditor"], function(){
+define(["../../views/webix/ckeditor"], function(){
 
 	var form = {
 		view: "form",

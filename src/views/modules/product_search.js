@@ -1,4 +1,4 @@
-define(["models/products"],function(products){
+define(["../../models/products"],function(products){
 	return {
 		$ui:{
 			rows:[

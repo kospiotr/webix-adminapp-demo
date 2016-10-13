@@ -1,5 +1,5 @@
 define([
-	"models/user"
+	"../models/user"
 ], function(users){
 
 	var key = "--:app:theme";

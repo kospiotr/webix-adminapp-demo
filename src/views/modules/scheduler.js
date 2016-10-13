@@ -1,4 +1,7 @@
-define(["views/webix/scheduler","models/events"], function(sch,events){
+define([
+	"../../views/webix/scheduler",
+	"../../models/events"
+], function(sch,events){
 var addEvents = function(){
 	scheduler.parse(events.data,"json");
 };

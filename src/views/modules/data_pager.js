@@ -1,4 +1,4 @@
-define(["models/orders"],function(orders){
+define(["../../models/orders"],function(orders){
 
 	var titlePager = {
 		view: "toolbar",

@@ -1,5 +1,5 @@
 define([
-	"views/modules/scheduler"
+	"../views/modules/scheduler"
 ], function(calendar){
 
 	var layout = {
