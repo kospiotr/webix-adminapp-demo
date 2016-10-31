@@ -47,7 +47,7 @@ define([
 			}
 
 			//call save to store values in the local store			
-			locale.setLang(current_user.settings.language, afterlogin);
+			//locale.setLang(current_user.settings.language, afterlogin);
 			theme.setTheme(current_user.settings.theme, afterlogin);
 		});
 	}
