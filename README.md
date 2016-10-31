@@ -35,7 +35,6 @@ NodeJS
 ### Some known issues
 
 - Server side is omitted by purpose - didn't have time to cover all functionality
-- Discovered that initial routing doesn't work with title - didn't even start tracking
 - Localisation code was commented out as it was not used for that demo
 
 ### Observations
